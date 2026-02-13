@@ -122,7 +122,7 @@ Tras el análisis exploratorio y la validación con modelos de Machine Learning,
 
 ### **Made by:Ivana Papaño**
 
-*Aspirante a Analista de Datos | Alumno en el programa ONE (Oracle + Alura Latam)*
+*Aspirante a Analista de Datos | Alumno en el programa ONE G9 (Oracle + Alura Latam)*
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ivana.papanio@gmail.com) 
  
