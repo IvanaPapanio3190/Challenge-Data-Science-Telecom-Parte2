@@ -70,9 +70,9 @@ En la segunda fase del proyecto, implementamos modelos de aprendizaje supervisad
 ### Análisis de Importancia de Variables
 Para entender qué motiva la cancelación, visualizamos los factores con mayor peso en nuestras predicciones:
 
-![Importancia-Logística](10variables_regresionlogistica.png)
+![Importancia-Logística](Imágenes/10variables_regresionlogistica.png)
 
-![Importancia-Árbol-de-Decisión](10top_arboldedecision.png)
+![Importancia-Árbol-de-Decisión](Imágenes/10top_arboldedecision.png)
 
 
 ---
