@@ -31,6 +31,7 @@ Telecom X busca reducir su tasa de cancelación. Este análisis se enfoca en:
 * **NumPy** – Procesamiento numérico.
 * **Seaborn & Matplotlib** – Visualización estadística avanzada.
 * **Google Colab** – Entorno de desarrollo en la nube.
+* **Scikit-Learn** – Creación, entrenamiento y evaluación de modelos predictivos.
 
 ## 🛠️ Proceso de Datos (Pipeline)
 
@@ -39,6 +40,23 @@ A diferencia de análisis convencionales, este proyecto puso especial énfasis e
 2. **Limpieza Rigurosa:** Identificación y eliminación de **224 registros nulos** en la variable objetivo.
 3. **Corrección de Tipos:** Transformación de datos financieros de texto a numérico (`Charges.Total`).
 4. **Ingeniería de Variables:** Creación de la métrica `Cuentas_Diarias` para análisis granular de facturación.
+
+
+## 🤖 Modelado Predictivo (Machine Learning)
+
+En la segunda fase del proyecto, implementamos modelos de aprendizaje supervisado para predecir la probabilidad de fuga:
+
+ - **Preparación Avanzada:** Aplicamos <StandardScaler> para normalizar variables numéricas y <get_dummies> para codificar variables categóricas.
+
+ - **División de Datos:** Separación en conjuntos de **Entrenamiento (70%)** y **Prueba (30%)** para garantizar la validez del modelo.
+
+ - **Algoritmos Implementados:**
+
+      -**Regresión Logística:** Modelo lineal robusto para clasificación binaria.
+
+      -**Árbol de D*ecisión:** Modelo interpretable para identificar las reglas de negocio que llevan a la cancelación.
+
+ - **Métricas de Evaluación:** Análisis exhaustivo mediante **Matriz de Confusión**, Precision, Recall y F1-Score.
 
 
 ## 📈 Hallazgos Clave
@@ -69,6 +87,21 @@ A través del análisis visual y estadístico, identificamos los siguientes punt
 * **Migración de Contratos:** Ofrecer incentivos para que los clientes pasen de contratos mensuales a anuales.
 * **Anclaje de Servicios:** Promover servicios como *Tech Support* y *Online Security*, que aumentan la permanencia.
 
+## 📝 Conclusiones e Informe de Estrategia - Parte 2
+Tras el análisis de importancia de variables de los modelos, concluimos:
+
+  **1. Factores Críticos:** El tipo de Contrato (Mes a Mes) y la Antigüedad (Tenure) son los predictores más fuertes del Churn.
+
+  **2. Desempeño del Modelo:** La Regresión Logística logró un equilibrio óptimo entre detectar fugas reales y evitar falsas alarmas, siendo la herramienta recomendada para el equipo de marketing.
+
+  **3. Estrategias Propuestas:**
+
+        **- Migración de Contratos:** Incentivar el paso a contratos anuales mediante descuentos.
+
+        - **Programa "Early Bird":**  Acompañamiento intensivo a nuevos clientes en sus primeros 3 meses.
+
+        - **Venta Cruzada:** Promover servicios de seguridad y soporte técnico, que funcionan como "anclas" de lealtad. 
+
 ## 🧑‍💻 Autor
 
 ### **Made by:Ivana Papaño**
@@ -77,7 +110,7 @@ A través del análisis visual y estadístico, identificamos los siguientes punt
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ivana.papanio@gmail.com) 
  
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/IvanaPapanio3190/Challenge_Churn_TelecomX_ONE)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logolor=white)](https://github.com/IvanaPapanio3190/Challenge_Churn_TelecomX_ONE)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ivana-papano)
 
