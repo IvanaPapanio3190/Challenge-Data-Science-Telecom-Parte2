@@ -3,7 +3,9 @@ Banner Telecom X
 
 Este proyecto realiza un análisis exploratorio de datos (EDA) profundo sobre la evasión de clientes (churn) en la empresa Telecom X. A través de la ciencia de datos, identificamos patrones críticos y factores de riesgo para proponer estrategias de retención efectivas dentro del marco del programa Oracle Next Education (#ONE) de Alura Latam.
 
+
 📍 Índice
+
 Objetivo del Proyecto
 Herramientas y Tecnologías
 Proceso de Datos (Pipeline)
