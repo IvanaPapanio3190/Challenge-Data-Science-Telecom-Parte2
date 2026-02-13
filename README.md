@@ -11,9 +11,12 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) profundo sobre la
 1. [Objetivo del Proyecto](#-objetivo-del-proyecto)
 2. [Herramientas y Tecnologías](#-herramientas-y-tecnologías)
 3. [Proceso de Datos (Pipeline)](#️-proceso-de-datos-pipeline)
-4. [Hallazgos Clave](#-hallazgos-clave)
-5. [Conclusiones y Recomendaciones](#-conclusiones-y-recomendaciones)
-6. [Autor](#-autor)
+4. [Modelado Predictivo (Machine Learning)](Modelado-Predictivo-(Machine-Learning))
+5. [Hallazgos Clave](#-hallazgos-clave)
+6. [Conclusiones y Recomendaciones](#-conclusiones-y-recomendaciones)
+7. [Conclusiones e Informe de Estrategia - Parte 2] (#-Conclusiones-e-Informe-de-Estrategia---Parte-2)
+8. [Autor](#-autor)
+
 
   
 ## 🚀 Objetivo del Proyecto
