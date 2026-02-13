@@ -59,21 +59,20 @@ En la segunda fase del proyecto, implementamos modelos de aprendizaje supervisad
 
  - **Métricas de Evaluación:** Análisis exhaustivo mediante **Matriz de Confusión**, Precision, Recall y F1-Score.
 
-
+---
 ### **Resultados de los Modelos (Matrices de Confusión)**
 
-Regresión Logística
+[!Regresión Logística](Imágenes/regresionlogistica.png)
 
----
-
-Árbol de Decisión
+[!Árbol de Decisión](Imágenes/arboldedecision.png)
 
 ### Análisis de Importancia de Variables
 Para entender qué motiva la cancelación, visualizamos los factores con mayor peso en nuestras predicciones:
 
-(Imagen de las Barras de Importancia)
 
 
+
+---
 ## 📈 Hallazgos Clave
 
 A través del análisis visual y estadístico, identificamos los siguientes puntos críticos:
