@@ -11,7 +11,7 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) profundo sobre la
 1. [Objetivo del Proyecto](#-objetivo-del-proyecto)
 2. [Herramientas y Tecnologías](#-herramientas-y-tecnologías)
 3. [Proceso de Datos (Pipeline)](#️-proceso-de-datos-pipeline)
-4. [Modelado Predictivo (Machine Learning)](Modelado-Predictivo-(Machine-Learning))
+4. [Modelado Predictivo (Machine Learning)](#-Modelado-Predictivo-(Machine-Learning))
 5. [Hallazgos Clave](#-hallazgos-clave)
 7. [Conclusiones e Informe de Estrategia Final](#-Conclusiones-e-Informe-de-Estrategia-Final) 
 8. [Autor](#-autor)
@@ -59,17 +59,20 @@ En la segunda fase del proyecto, implementamos modelos de aprendizaje supervisad
 
  - **Métricas de Evaluación:** Análisis exhaustivo mediante **Matriz de Confusión**, Precision, Recall y F1-Score.
 
----
+
 ### **Resultados de los Modelos (Matrices de Confusión)**
 
 ![Regresión Logística](Imágenes/regresion_logistica.png)
 
 ![Árbol de Decisión](Imágenes/arboldedecision.png)
 
+---
 ### Análisis de Importancia de Variables
 Para entender qué motiva la cancelación, visualizamos los factores con mayor peso en nuestras predicciones:
 
+![Importancia-Logística](topvariables_regresionlogistica.png)
 
+![Importancia-Árbol-de-Decisión](top10_arboldedecision.png)
 
 
 ---
