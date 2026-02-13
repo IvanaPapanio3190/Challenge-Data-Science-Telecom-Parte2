@@ -62,9 +62,9 @@ En la segunda fase del proyecto, implementamos modelos de aprendizaje supervisad
 ---
 ### **Resultados de los Modelos (Matrices de Confusión)**
 
-[!Regresión Logística](Imágenes/regresion_logistica.png)
+![Regresión Logística](Imágenes/regresion_logistica.png)
 
-[!Árbol de Decisión](Imágenes/arboldedecision.png)
+![Árbol de Decisión](Imágenes/arboldedecision.png)
 
 ### Análisis de Importancia de Variables
 Para entender qué motiva la cancelación, visualizamos los factores con mayor peso en nuestras predicciones:
