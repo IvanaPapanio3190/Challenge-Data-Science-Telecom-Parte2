@@ -13,8 +13,7 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) profundo sobre la
 3. [Proceso de Datos (Pipeline)](#️-proceso-de-datos-pipeline)
 4. [Modelado Predictivo (Machine Learning)](Modelado-Predictivo-(Machine-Learning))
 5. [Hallazgos Clave](#-hallazgos-clave)
-6. [Conclusiones y Recomendaciones](#-conclusiones-y-recomendaciones)
-7. [Conclusiones e Informe de Estrategia - Parte 2](#-Conclusiones-e-Informe-de-Estrategia---Parte-2)
+7. [Conclusiones e Informe de Estrategia Final](#-Conclusiones-e-Informe-de-Estrategia-Final) 
 8. [Autor](#-autor)
 
 
@@ -56,9 +55,23 @@ En la segunda fase del proyecto, implementamos modelos de aprendizaje supervisad
  - **Algoritmos Implementados:**
 
       - **Regresión Logística:** Modelo lineal robusto para clasificación binaria.
-      - **Árbol de D*ecisión:** Modelo interpretable para identificar las reglas de negocio que llevan a la cancelación.
+      - **Árbol de Decisión:** Modelo interpretable para identificar las reglas de negocio que llevan a la cancelación.
 
  - **Métricas de Evaluación:** Análisis exhaustivo mediante **Matriz de Confusión**, Precision, Recall y F1-Score.
+
+
+### **Resultados de los Modelos (Matrices de Confusión)**
+
+Regresión Logística
+
+---
+
+Árbol de Decisión
+
+### Análisis de Importancia de Variables
+Para entender qué motiva la cancelación, visualizamos los factores con mayor peso en nuestras predicciones:
+
+(Imagen de las Barras de Importancia)
 
 
 ## 📈 Hallazgos Clave
@@ -83,26 +96,25 @@ A través del análisis visual y estadístico, identificamos los siguientes punt
 * **Impacto de Costos:** Los clientes que cancelan pagan, en promedio, cargos mensuales superiores a los que permanecen, lo que sugiere una sensibilidad al precio.
 * **Correlación:** El análisis matemático confirma que la **antigüedad** y los **cargos mensuales** son los principales predictores del comportamiento del cliente.
 
-## 📝 Conclusiones y Recomendaciones
 
-* **Fidelización Temprana:** Implementar campañas de bienvenida y seguimiento proactivo durante los primeros 6 meses.
-* **Migración de Contratos:** Ofrecer incentivos para que los clientes pasen de contratos mensuales a anuales.
-* **Anclaje de Servicios:** Promover servicios como *Tech Support* y *Online Security*, que aumentan la permanencia.
 
-## 📝 Conclusiones e Informe de Estrategia - Parte 2
-Tras el análisis de importancia de variables de los modelos, concluimos:
+## 📝 Conclusiones e Informe de Estrategia Final
+Tras el análisis exploratorio y la validación con modelos de Machine Learning, hemos definido la siguiente estrategia de negocio:
 
-  **1. Factores Críticos:** El tipo de Contrato (Mes a Mes) y la Antigüedad (Tenure) son los predictores más fuertes del Churn.
+  **1. Factores Críticos de Fuga** 🚩
+  
+   - **El Contrato y la Antigüedad:** El tipo de Contrato (Mes a Mes) y la Antigüedad (Tenure) resultaron ser los predictores más fuertes del Churn. El riesgo es máximo   durante los primeros 6 meses de servicio.
 
-  **2. Desempeño del Modelo:** La Regresión Logística logró un equilibrio óptimo entre detectar fugas reales y evitar falsas alarmas, siendo la herramienta recomendada para el equipo de marketing.
+   - **Desempeño del Modelo:** Se recomienda el uso de la Regresión Logística, ya que logró un equilibrio óptimo entre detectar fugas reales y evitar falsas alarmas.
 
-  **3. Estrategias Propuestas:**
+  **2. Estrategias de Retención Propuestas**💡
+  
+   - **Fidelización Temprana (Programa "Early Bird"):** Implementar campañas de bienvenida y acompañamiento intensivo durante los primeros 3 a 6 meses, que es el periodo de mayor vulnerabilidad.
 
-        **- Migración de Contratos:** Incentivar el paso a contratos anuales mediante descuentos.
+   - **Migración de Contratos:** Ofrecer incentivos y descuentos exclusivos para que los clientes migren de contratos mensuales a planes anuales o bianuales.
 
-        - **Programa "Early Bird":**  Acompañamiento intensivo a nuevos clientes en sus primeros 3 meses.
-
-        - **Venta Cruzada:** Promover servicios de seguridad y soporte técnico, que funcionan como "anclas" de lealtad. 
+   - **Venta Cruzada de "Anclaje":** Promover activamente servicios como Tech Support y Online Security. Los datos demuestran que estos servicios funcionan como "anclas" que aumentan significativamente la permanencia.
+          
 
 ## 🧑‍💻 Autor
 
