@@ -72,7 +72,7 @@ Para entender qué motiva la cancelación, visualizamos los factores con mayor p
 
 ![Importancia-Logística](Imágenes/10variables_regresionlogistica.png)
 
-![Importancia-Árbol-de-Decisión](Imágenes/10top_arboldedecision.png)
+
 
 
 ---
