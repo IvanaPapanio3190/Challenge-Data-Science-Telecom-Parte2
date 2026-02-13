@@ -14,7 +14,7 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) profundo sobre la
 4. [Modelado Predictivo (Machine Learning)](Modelado-Predictivo-(Machine-Learning))
 5. [Hallazgos Clave](#-hallazgos-clave)
 6. [Conclusiones y Recomendaciones](#-conclusiones-y-recomendaciones)
-7. [Conclusiones e Informe de Estrategia - Parte 2] (#-Conclusiones-e-Informe-de-Estrategia---Parte-2)
+7. [Conclusiones e Informe de Estrategia - Parte 2](#-Conclusiones-e-Informe-de-Estrategia---Parte-2)
 8. [Autor](#-autor)
 
 
@@ -55,9 +55,9 @@ En la segunda fase del proyecto, implementamos modelos de aprendizaje supervisad
 
  - **Algoritmos Implementados:**
 
-      -**Regresión Logística:** Modelo lineal robusto para clasificación binaria.
+         * **Regresión Logística:** Modelo lineal robusto para clasificación binaria.
 
-      -**Árbol de D*ecisión:** Modelo interpretable para identificar las reglas de negocio que llevan a la cancelación.
+         * **Árbol de D*ecisión:** Modelo interpretable para identificar las reglas de negocio que llevan a la cancelación.
 
  - **Métricas de Evaluación:** Análisis exhaustivo mediante **Matriz de Confusión**, Precision, Recall y F1-Score.
 
