@@ -14,7 +14,7 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) profundo sobre la
 4. [Modelado Predictivo (Machine Learning)](#-modelado-predictivo-machine-learning)
 5. [Hallazgos Clave](#-hallazgos-clave)
 7. [Conclusiones e Informe de Estrategia Final](#-Conclusiones-e-Informe-de-Estrategia-Final) 
-8. [Autor](#-autor)
+8. [Autor](#-Autor)
 
 
   
