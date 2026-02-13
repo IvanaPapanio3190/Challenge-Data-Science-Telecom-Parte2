@@ -62,7 +62,7 @@ En la segunda fase del proyecto, implementamos modelos de aprendizaje supervisad
 ---
 ### **Resultados de los Modelos (Matrices de Confusión)**
 
-[!Regresión Logística](Imágenes/regresionlogistica.png)
+[!Regresión Logística](Imágenes/regresion_logistica.png)
 
 [!Árbol de Decisión](Imágenes/arboldedecision.png)
 
