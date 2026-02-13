@@ -126,7 +126,7 @@ Tras el análisis exploratorio y la validación con modelos de Machine Learning,
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ivana.papanio@gmail.com) 
  
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logolor=white)](https://github.com/IvanaPapanio3190/Challenge_Churn_TelecomX_ONE)
+[![GitHub]([https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logolor=white)](https://github.com/IvanaPapanio3190/Challenge_Churn_TelecomX_ONE](https://github.com/IvanaPapanio3190/Challenge-Data-Science-Telecom-Parte2/tree/main)) 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ivana-papano)
 
